@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>public boolean searchStock(String name ){
+        for(int index=0; index<=desktops.length-1;index++) {
+        int c =1;
+        for(int i =0; i<desktops[index].toString().length();i++) {
+        if (desktops[index].toString().charAt(i) == name.charAt(c)) {
+        return true;
+        }
+        }
+
+        }
+
+        for(int index=0; index<=laptops.length-1;index++) {
+        if (laptops[index].toString().equals(name)){
+        return true;
+        }
+
+        }
+        for(int index=0; index<=fridges.length-1;index++) {
+        if (fridges[index].toString().equals(name)){
+        return true;
+        }
+        }
+
+        return false;
+
+        }
+        }
+    </title>
+</head>
+<body>
+
+</body>
+</html>
